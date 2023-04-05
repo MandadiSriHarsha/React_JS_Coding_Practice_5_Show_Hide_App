@@ -1,0 +1,78 @@
+.bg-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-card {
+  text-align: center;
+}
+
+button {
+  font-family: 'Roboto';
+  color: #dd1264;
+  font-weight: bold;
+  height: 40px;
+  width: 220px;
+  border-radius: 10px;
+  border-width: 0px;
+  border-style: solid;
+  margin: 20px;
+}
+
+.new-text-card {
+  height: 140px;
+  width: 300px;
+  background-color: #fddddb;
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .buttons-container {
+    width: 50vw;
+  }
+  button {
+    height: 50px;
+    width: 220px;
+  }
+  .main-heading {
+    font-size: 50px;
+  }
+  .new-text-card {
+    font-size: 50px;
+    height: 150px;
+    width: 330px;
+  }
+}
